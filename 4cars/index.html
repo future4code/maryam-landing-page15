@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo-cabecalho" src="./imagem/4cars.png" alt="Logo 4Cars">
+            <div class="busca-e-login">
+                <div class="caixa-de-busca">
+                    <input id="barra-busca" type="text" placeholder="Buscar rede de concessionárias...">
+                </div>
+                <button class="botao-login">LOGIN</button>
+            </div>
+        </div>
+        <nav>
+            <a class="links-nav" href="#inicio">QUEM SOMOS</a>
+            <a class="links-nav" href="#alugar">COMO ALUGAR</a>
+            <a class="links-nav" href="#produtos">PRODUTOS</a>
+            <a class="links-nav" href="#contato">CONTATO</a>
+        </nav>
+    </header>
+    <main>
+        <div class="pagina-inicio" id="inicio">
+            <div class="container"> 
+                <h2 class="h2text"> NOSSO CARRO,<br> SUA CHANCE.</h2>
+                <p class="line typeanimacao">
+                 Nossa proposta é oferecer carros para<br> motoristas de aplicativo a um custo razóavel,<br>aumentando a oportunidade para quem <br> não tem dinheiro para comprar um carro.</p>  
+            </div> 
+            <img class="imgcarro1"src="imagem/corolla.png" alt="Foto de carro prata">
+        </div>
+
+        <section>
+            <div class="comoAlugar" id="alugar">
+                <div>
+                    <p class="fonteComoAlugar">como alugar com a gente?</p>
+                    <p class="fonteDescritivaComoAlugar">são três passos</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardEtapas">
+                    <img src="./itensComoAlugar/1_page-0001.jpg" alt="">
+                    <p class="fonteEtapas">baixe o aplicativo ou acesse o nosso site para 
+                    realizar o seu cadastro.</p>
+                </div>
+                <div class="cardEtapas">
+                    <img src="./itensComoAlugar/2_page-0001.jpg" alt="">
+                    <p class="fonteEtapas">realize o seu cadastro e escolha o tipo de veículo
+                    para trabalhar</p>
+                </div>
+                <div class="cardEtapas">
+                    <img src="./itensComoAlugar/3_page-0001.jpg" alt="">
+                    <p class="fonteEtapas">após a escolha vá até a concessionária indicada e 
+                    retire o seu veículo $$$</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtosLuxo" id="produtos">
+            <div>
+                <p class="fonteProduto">O QUE OFERECEMOS?</p>
+                <img class="imgCarroLuxo" src="./carrosLuxo/corolla.PNG" alt="">
+            </div>
+                <div class="carrosLuxo">
+                    <h2 class="fonteLuxo">linha luxo</h2>
+                    <p class="fonteCarroToyota">Toyota Corolla </p> 
+                    <p class="fonteCarroHonda">Honda Civic </p> 
+                    <p class="fonteCarroChevrolet">Chevrolet Cruze </p> 
+                    <p class="fonteCarroNissan">Nissan Versa</p> 
+                </div>
+
+        </section>
+
+        <section class="produtosPopular">
+            <div class="carrosPopular">
+                <h2 class="fontePopular">linha popular</h2>
+                <p class="fonteCarroFiat">Fiat Uno</p> 
+                <p class="fonteCarroPeugeot">Peugeot 208</p> 
+                <p class="fonteCarroArgo">Fiat Argo</p> 
+                <p class="fonteCarroSandero">Renault Sandero</p> 
+            </div>
+            <div>
+                <img class="imgCarroPopular"src="./carrosPopular/208_cortado.png" alt="">
+            </div>
+        </section>
+
+        <div class="pagina-formulario" id="contato">
+            <div class="formulario-contato">
+                <h1 class="titulo-formulario">ENTRE EM CONTATO CONOSCO</h1>
+                <input type="text" id="input-nome" placeholder="Nome:">
+                <input type="email" id="input-email" placeholder="Email:">
+                <input type="text" id="input-mensagem" placeholder="Mensagem:">
+            </div>
+            <button class="botao-enviar">ENVIAR</button>
+        </div>
+    </main>
+
+
+    <footer>
+        <p class="texto-footer">
+            A 4CARS tem como finalidade oferecer carros para motoristas de aplicativo a um custo razoável, aumentando
+            oportunidades para quem não tem dinheiro para comprar um carro.
+        </p>
+        <p class="titulo-redes-footer">Siga nossas redes sociais:</p>
+        <div class="imagens-redes-footer">
+            <a href="https://www.instagram.com/" target="_blank"><img class="logos-redes" src="./imagem/instagram.png" alt="Logo do Instagram"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img class="logos-redes" src="./imagem/facebook.png" alt="Logo do Facebook"></a>
+        </div>
+        <p class="endereco-footer">
+            A 4CARS Ltda. <br>
+            End. Rua Labelovers, 444. Butantã, São Paulo. <br>
+            (11) 9 9999 9999
+        </p>
+    </footer>
+</body>
+</html>
