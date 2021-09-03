@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* ESTILOS DA PÁGINA COMO ALUGAR */
+
+.comoAlugar {
+    background-color: white;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10vh;
+}
+
+.cardEtapas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+
+img {
+    width: 80px;
+}
+
+.fonteComoAlugar {
+    font-family: "Roboto light";
+    font-size: 2.5rem;
+}
+
+.fonteDescritivaComoAlugar {
+    font-family: "Roboto light";
+    font-size: 1.5rem;
+    padding-top: 4vh;
+}
+
+.fonteEtapas{
+    font-family: "Roboto Light";
+    font-size: 1.5rem;
+    padding-top: 4vh;
+}
+
+/* ESTILOS DA PÁGINA PRODUTOS */
+
+
+.produtosLuxo {
+    background-color:white;
+    height: 80vh;
+    display: flex;
+
+}
+
+.produtosPopular {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+
+}
+.fonteProduto {
+    display: flex;
+    font-family:"Roboto";
+    font-size: 3rem;
+    color:black;
+    margin-left: 5vw;
+    width: 30vw;
+}
+.imgCarroLuxo {
+    width: 40vw;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+.imgCarroPopular {
+    width: 40vw;
+    margin-top: 20vh;
+    margin-right: 5vw;
+    margin-top: 10vh;
+
+}
+
+.carrosLuxo{
+    background-color: white;
+    
+}
+
+.carrosPopular{
+    background-color: black;
+}
+
+.fonteLuxo{
+    font-family:"Roboto";
+    font-size: 3rem;
+    color:black;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.fonteCarroToyota{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroToyota:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroHonda{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroHonda:hover {
+    color:#FF5C5C;
+}
+.fonteCarroChevrolet{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroChevrolet:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroNissan{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+
+}
+.fonteCarroNissan:hover {
+    color:#FF5C5C;
+}
+
+.fontePopular{
+    font-family:"Roboto";
+    font-size: 3rem;
+    color:white;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.fonteCarroFiat {
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroFiat:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroPeugeot {
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+
+}
+.fonteCarroPeugeot:hover {
+    color:#FF5C5C;
+}
+.fonteCarroArgo {
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroArgo:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroSandero{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    width: 50vw;
+    margin-left:5vw;
+}
+.fonteCarroSandero:hover {
+    color:#FF5C5C;
+}
+
+/* RESPONSIVIDADE */
+
