@@ -2,7 +2,7 @@
 
 Olá! Este é o link para o Surge do nosso projeto:
 
-https://reminiscent-motion.surge.sh/
+https://mature-shock.surge.sh/
 
 Em breve, adicionaremos mais informações.
 Obrigado!
