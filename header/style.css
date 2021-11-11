@@ -1,0 +1,215 @@
+/* Configurações GErais */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: grid;
+    grid-template-rows: 260px 1fr 500px; 
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 40px;
+}
+
+main {
+    height: 6000px;
+    margin-top: -60px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+
+footer {
+    background-color: rgb(255,92,92);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+configurações do header */
+
+.cabecalho {
+    background-color: white;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 270px;
+    padding-left: 270px;
+    align-content: center;
+    margin-top: -80px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.links-nav {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.logo-cabecalho {
+    background-color: white;
+    margin-top: -60px;
+    margin-left: 30px;
+    height: 120%;
+    width: 100%;
+}
+
+.busca-e-login {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+
+}
+
+.caixa-de-busca {
+    height: 40%;
+    width: 80%;
+    background-color: rgb(255,92,92);
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+#barra-busca {
+    height: 59%;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 22px;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: rgb(255,92,92);
+    padding-left: 20px;
+}
+
+.botao-login {
+    height: 40px;
+    width: 90px;
+    border-radius: 8px;
+    margin-top: 65px;
+    background-color:rgb(255,92,92);
+    border-color: rgb(255,92,92);
+    color: white;
+    margin-right: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 12px;
+    font-size: 16px;
+}
+
+/* Configurações footer */
+
+.texto-footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    padding-left: 90px;
+    padding-right: 490px;
+    margin-bottom: 40px;
+    color: white;
+    margin-top: 40px;
+}
+
+.titulo-redes-footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    padding-left: 90px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+
+.logos-redes{
+    width: 40px;
+    height: 40px;
+}
+
+.endereco-footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding-left: 90px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.imagens-redes-footer {
+    margin-left: 90px;
+    margin-bottom: 40px;
+}
+
+/* configurações formulario */
+
+.pagina-formulario {
+    display: grid;
+    grid-template-columns: 1fr 600px;
+}
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.botao-enviar {
+    height: 40px;
+    width: 90px;
+    border-radius: 8px;
+    margin-top: 65px;
+    background-color:rgb(255,92,92);
+    border-color: rgb(255,92,92);
+    color: white;
+    margin-right: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 12px;
+    font-size: 16px;
+    margin-top: 360px;
+}
+
+#input-nome {
+    height: 20px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 22px;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: rgb(255,92,92);
+    padding-left: 20px;
+    border-width: 2px;
+}
+
+#input-email {
+    height: 20px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 22px;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: rgb(255,92,92);
+    padding-left: 20px;
+    border-width: 2px;
+}
+
+#input-mensagem {
+    height: 200px;
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 22px;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-color: rgb(255,92,92);
+    padding-left: 20px;
+    border-width: 2px;
+}
+
+.titulo-formulario {
+    color: rgb(255,92,92);
+    font-size: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+}

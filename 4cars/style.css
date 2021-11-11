@@ -1,0 +1,804 @@
+/* Configurações GErais */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: grid;
+    grid-template-rows: 40vh 1fr 70vh; 
+}
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 5%;
+}
+
+main {
+    height: 500vh;
+    margin-top: -10vh;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+
+footer {
+    background-color: rgb(255,92,92);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+configurações do header */
+
+.cabecalho {
+    background-color: white;
+}
+
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25vw;
+    padding-left: 25vw;
+    align-content: center;
+    margin-top: -12vh;
+    font-family: 'Roboto';
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.links-nav:hover {
+    color:  rgb(255,92,92);
+}
+
+.links-nav {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 22vw 1fr;
+}
+
+.logo-cabecalho {
+    background-color: white;
+    margin-top: -10vh;
+    margin-left: 1vw;
+    height: 120%;
+    width: 100%;
+}
+
+.busca-e-login {
+    display: grid;
+    grid-template-columns: 1fr 11vw;
+
+}
+
+.caixa-de-busca {
+    height: 40%;
+    width: 80%;
+    background-color: rgb(255,92,92);
+    margin-left: 5vw;
+    margin-top: 5vh;
+    border-radius: 8px;
+}
+
+#barra-busca {
+    height: 59%;
+    width: 80%;
+    margin-left: 1vw;
+    margin-top: 3vh;
+    border-radius: 8px;
+    font-family: "Roboto";
+    border-color: rgb(255,92,92);
+    padding-left: 1vw;
+}
+
+.botao-login {
+    height: 5vh;
+    width: 6vw;
+    border-radius: 8px;
+    margin-top: 10vh;
+    background-color:rgb(255,92,92);
+    border-color: rgb(255,92,92);
+    color: white;
+    margin-right: 11vw;
+    font-family: "Roboto";
+    padding-right: 12px;
+    font-size: 16px;
+}
+
+.botao-login:hover {
+    background-color: rgb(247, 64, 64);
+}
+
+/* Configurações footer */
+
+.texto-footer {
+    font-family: "Roboto";
+    font-size: 28px;
+    padding-left: 7vw;
+    padding-right: 30vw;
+    margin-bottom: 6vh;
+    color: white;
+    margin-top: 6vh;
+}
+
+.titulo-redes-footer {
+    font-family: "Roboto";
+    font-size: 28px;
+    padding-left: 7vw;
+    margin-bottom: 6vh;
+    color: white;
+}
+
+
+.logos-redes{
+    width: 40px;
+    height: 40px;
+}
+
+.endereco-footer {
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-left: 7vw;
+    color: white;
+    margin-bottom: 6vh;
+}
+
+.imagens-redes-footer {
+    margin-left: 7vw;
+    margin-bottom: 6vh;
+}
+
+/* configurações formulario */
+
+.pagina-formulario {
+    display: grid;
+    grid-template-columns: 1fr 40vw;
+}
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vh;
+    margin-left: 4vw;
+}
+
+.botao-enviar {
+    height: 5vh;
+    width: 7vw;
+    border-radius: 8px;
+    background-color:black;
+    border-color: black;
+    color: white;
+    margin-right: 30vw;
+    font-family: "Roboto";
+    padding-right: 12px;
+    font-size: 16px;
+    margin-top: 54vh;
+}
+
+.botao-enviar:hover {
+    background-color: rgb(255,92,92);
+    border-color: rgb(255,92,92);
+}
+
+#input-nome {
+    height: 4vh;
+    width: 80%;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    border-radius: 8px;
+    font-family: "Roboto";
+    border-color: rgb(255,92,92);
+    padding-left: 1vw;
+    border-width: 2px;
+}
+
+#input-email {
+    height: 4vh;
+    width: 80%;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    border-radius: 8px;
+    font-family: "Roboto";
+    border-color: rgb(255,92,92);
+    padding-left: 1vw;
+    border-width: 2px;
+}
+
+#input-mensagem {
+    height: 29vh;
+    width: 80%;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    border-radius: 8px;
+    font-family: "Roboto";
+    border-color: rgb(255,92,92);
+    padding-left: 1vw;
+    border-width: 2px;
+}
+
+.titulo-formulario {
+    color: rgb(255,92,92);
+    font-size: 36px;
+    font-family: "Roboto light";
+    margin-left: 2vw;
+}
+
+/* Configurações inicio */
+
+.pagina-inicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+}
+
+.container {
+    display:grid;
+    grid-template-rows: 15vh 1fr;
+    margin-top: 10vh;
+    justify-content: start  ;
+    /* align-items: center; */
+  
+}
+
+.h2text {
+    color: #ff5c5c;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    margin-left: 4vw;
+}
+.line {
+    color:rgb(250, 251, 252);
+    font-family:'Roboto';
+    font-size: 0.6cm;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    display: block;
+    /* position:fixed; */
+    white-space: nowrap;
+    text-align: justify;
+    line-height:60px;
+    margin-left: 4vw;
+}
+
+
+.typeanimacao {
+    animation: blinkcursor 500ms steps(40) infinite normal, typing 4s steps(35) 1s normal both;
+}
+@keyframes typing {
+from {
+    width: 0;
+}
+to {
+    width: 45vw;
+}
+
+}
+@keyframes blinkcursor {
+from {
+    border-rigth-color: rgba(255, 255, 255, 0.75);
+} 
+to {
+border-right-color: transparent;
+}
+
+}
+
+.imgcarro1 {
+    width: 85%;
+    height: 55%;
+    margin-left: 5%;
+    margin-top: 7vh;
+    /* display: block; */
+}  
+
+/* ESTILOS DA PÁGINA COMO ALUGAR */
+
+.comoAlugar {
+    background-color: white;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10vh;
+}
+
+.cardEtapas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30vh;
+}
+
+img {
+    width: 80px;
+}
+
+.fonteComoAlugar {
+    font-family: "Roboto light";
+    font-size: 2.5rem;
+}
+
+.fonteDescritivaComoAlugar {
+    font-family: "Roboto light";
+    font-size: 1.5rem;
+    padding-top: 4vh;
+}
+
+.fonteEtapas{
+    font-family: "Roboto Light";
+    font-size: 1.5rem;
+    padding-top: 4vh;
+}
+
+/* ESTILOS DA PÁGINA PRODUTOS */
+
+
+.produtosLuxo {
+    background-color:white;
+    height: 80vh;
+    display: flex;
+
+}
+
+.produtosPopular {
+    background-color: black;
+    height: 80vh;
+    display: flex;
+
+}
+.fonteProduto {
+    display: flex;
+    font-family:"Roboto";
+    font-size: 3rem;
+    color:black;
+    margin-left: 5vw;
+    width: 30vw;
+}
+.imgCarroLuxo {
+    width: 40vw;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+.imgCarroPopular {
+    width: 40vw;
+    margin-top: 20vh;
+    margin-right: 5vw;
+    margin-top: 10vh;
+
+}
+
+.links-carros {
+    text-decoration: none;
+}
+
+.carrosLuxo{
+    background-color: white;
+    
+}
+
+.carrosPopular{
+    background-color: black;
+}
+
+.fonteLuxo{
+    font-family:"Roboto";
+    font-size: 3rem;
+    color:black;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.fonteCarroToyota{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroToyota:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroHonda{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroHonda:hover {
+    color:#FF5C5C;
+}
+.fonteCarroChevrolet{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroChevrolet:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroNissan{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:black;
+    margin-left: 30vw;
+    margin-bottom: 1vh;
+
+}
+.fonteCarroNissan:hover {
+    color:#FF5C5C;
+}
+
+.fontePopular{
+    font-family:"Roboto";
+    font-size: 3rem;
+    color:white;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.fonteCarroFiat {
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroFiat:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroPeugeot {
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+
+}
+.fonteCarroPeugeot:hover {
+    color:#FF5C5C;
+}
+.fonteCarroArgo {
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+.fonteCarroArgo:hover {
+    color:#FF5C5C;
+}
+
+.fonteCarroSandero{
+    font-family:"Roboto";
+    font-size: 2rem;
+    color:white;
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    width: 50vw;
+    margin-left:5vw;
+}
+.fonteCarroSandero:hover {
+    color:#FF5C5C;
+}
+
+@media screen and (max-width: 600px) {
+    .cabecalho {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .busca-e-login {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    
+    }
+    
+    .caixa-de-busca {
+        height: 30%;
+        width: 80%;
+        background-color: rgb(255,92,92);
+        margin-left: 0;
+        margin-top: 3vh;
+        border-radius: 8px;
+    }
+    
+    #barra-busca {
+        height: 59%;
+        width: 80%;
+        margin-left: 1vw;
+        margin-top: 2vh;
+        border-radius: 8px;
+        font-family: "Roboto";
+        border-color: rgb(255,92,92);
+        padding-left: 1vw;
+        font-size: 9px;
+    }
+    
+    .botao-login {
+        height: 5vh;
+        width: 20vw;
+        border-radius: 8px;
+        margin-top: 2vh;
+        background-color:rgb(255,92,92);
+        border-color: rgb(255,92,92);
+        color: white;
+        margin-right: 0;
+        font-family: "Roboto";
+        padding-right: 12px;
+        font-size: 12px;
+    }
+    
+    .botao-login:hover {
+        background-color: rgb(247, 64, 64);
+    }
+
+    nav {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        align-content: center;
+        margin-top: -12vh;
+        font-family: 'Roboto';
+        font-size: 12px;
+        padding-top: 8px;
+    }
+
+    .imgcarro1 {
+        display: none;
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100vw;
+        }
+        
+        }
+        @keyframes blinkcursor {
+        from {
+            border-rigth-color: rgba(255, 255, 255, 0.75);
+        } 
+        to {
+        border-right-color: transparent;
+        }
+    }
+
+    .line {
+        font-size: 15px;
+    }
+
+    .pagina-inicio{
+        display: flex;
+    }
+    
+    /* SESSÃO: COMO ALUGAR */
+    .comoAlugar {
+        height: 20vh;
+    }
+    
+    .card {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 15vh;
+     
+    }
+    
+    .cardEtapas {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15vh;
+    }
+    
+    img {
+        width: 80px;
+    }
+    
+    .fonteComoAlugar {
+        font-family: "Roboto light";
+        font-size: rem;
+    }
+    
+    .fonteDescritivaComoAlugar {
+        font-family: "Roboto light";
+        font-size: 1.3rem;
+    }
+    
+    .fonteEtapas{
+        font-family: "Roboto Light";
+        font-size: 1rem;
+
+    }
+        /* PRODUTOS */
+
+    .produtosLuxo {
+        background-color:white;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produtosPopular {
+        background-color: black;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .fonteProduto {
+        font-family:"Roboto";
+        font-size: 3rem;
+        color:black;
+        margin-left: 5vw;
+    }
+    .imgCarroLuxo {
+    display: none;
+    }
+
+    .imgCarroPopular {
+        display: none;
+    }
+
+    .carrosLuxo{
+        background-color: white;
+        
+    }
+
+    .carrosPopular{
+        background-color: black;
+    }
+
+    .fonteLuxo{
+        font-family:"Roboto";
+        font-size: 3rem;
+        color:black;
+        margin-left: 30vw;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    .fonteCarroToyota{
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:black;
+        margin-left: 30vw;
+        margin-bottom: 1vh;
+    }
+    .fonteCarroToyota:hover {
+        color:#FF5C5C;
+    }
+
+    .fonteCarroHonda{
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:black;
+        margin-left: 30vw;
+        margin-bottom: 1vh;
+    }
+    .fonteCarroHonda:hover {
+        color:#FF5C5C;
+    }
+    .fonteCarroChevrolet{
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:black;
+        margin-left: 30vw;
+        margin-bottom: 1vh;
+    }
+    .fonteCarroChevrolet:hover {
+        color:#FF5C5C;
+    }
+
+    .fonteCarroNissan{
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:black;
+        margin-left: 30vw;
+        margin-bottom: 1vh;
+
+    }
+    .fonteCarroNissan:hover {
+        color:#FF5C5C;
+    }
+
+    .fontePopular{
+        font-family:"Roboto";
+        font-size: 3rem;
+        color:white;
+        margin-left: 5vw;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    .fonteCarroFiat {
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:white;
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+    }
+    .fonteCarroFiat:hover {
+        color:#FF5C5C;
+    }
+
+    .fonteCarroPeugeot {
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:white;
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+
+    }
+    .fonteCarroPeugeot:hover {
+        color:#FF5C5C;
+    }
+    .fonteCarroArgo {
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:white;
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+    }
+    .fonteCarroArgo:hover {
+        color:#FF5C5C;
+    }
+
+    .fonteCarroSandero{
+        font-family:"Roboto";
+        font-size: 2rem;
+        color:white;
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+        width: 50vw;
+        margin-left:5vw;
+    }
+    .fonteCarroSandero:hover {
+        color:#FF5C5C;
+    }
+
+    .botao-enviar {
+        height: 5vh;
+        width: 20vw;
+        margin-top: 66vh;
+    }
+
+    .texto-footer {
+        font-size: 20px;
+    }
+
+    .titulo-redes-footer {
+        font-size: 20px;
+    }
+
+    .endereco-footer {
+        font-size: 12px;
+    }
+
+    body {
+        display: grid;
+        grid-template-rows: 40vh 1fr 90vh; 
+    }
+}
